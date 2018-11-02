@@ -1,3 +1,4 @@
+/* 重置css */
 *,
 ::before,
 ::after{
@@ -100,64 +101,4 @@ input{
     text-align: center;
     line-height: 44px;
     font-weight: normal;
-}
-/* ------------------------------------------------------------ */
-
-.hm_header{
-    position: fixed;
-    left: 0;
-    top: 0;
-    height: 40px;
-    width: 80%;
-    z-index: 1000;
-}
-.hm_header > .hm_header_box{
-    width: 100%;
-    max-width: 640px;
-    min-width: 300px;
-    margin: 0 auto;
-    background: rgba(201,21,35,0);
-    height: 40px;
-    position: relative;
-}
-.hm_header > .hm_header_box > .icon_logo{
-    width: 60px;
-    height: 36px;
-    position: absolute;
-    background-position: 0 -103px;
-    top: 4px;
-    left: 10px;
-}
-.hm_header> .hm_header_box > .login{
-    width: 50ox;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    color:rgba(109, 103, 103, 0.404);
-    position: absolute;
-    right: 0;
-    top: 0;
-    font-size: 15px;
-}
-.hm_header > .hm_header_box >form{
-    width: 100%;
-    padding-left: 75px;
-    padding-right: 50px;
-    height: 40px;
-    position: relative;
-}
-.hm_header > .hm_header_box > form > input{
-    width: 100%;
-    height: 30px;
-    border-radius: 15px;
-    margin-top: 5px;
-    padding-left: 30px;
-}
-.hm_header > .hm_header_box > form > .icon_search{
-    height: 20px;
-    width: 20px;
-    position: absolute;
-    background-position: -60px -109px;
-    top: 10px;
-    left: 85px;
 }
